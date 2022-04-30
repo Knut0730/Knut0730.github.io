@@ -1,0 +1,40 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header,
+footer {
+    background-color: darkmagenta;
+    height: 100px;
+}
+
+h1 {
+    color: gray;
+}
+
+p {
+    color: black;
+}
+
+header h1,
+footer p {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0em;
+
+}
+
+html {
+    height: 100%;
+}
